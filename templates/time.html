@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MNIST Clock</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div id="clock">
+        <!-- 時刻の各桁を表示するためのコンテナ -->
+        <img class="digit" id="hour-ten">
+        <img class="digit" id="hour-one">
+        <span class="colon">:</span>
+        <img class="digit" id="minute-ten">
+        <img class="digit" id="minute-one">
+        <span class="colon">:</span>
+        <img class="digit" id="second-ten">
+        <img class="digit" id="second-one">
+    </div>
+    <script src="{{ url_for('static', filename='clock.js') }}"></script>
+</body>
+</html>

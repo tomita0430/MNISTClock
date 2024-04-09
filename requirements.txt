@@ -1,0 +1,5 @@
+Flask>=2.0
+Werkzeug>=2.0
+idx2numpy
+numpy
+Pillow
